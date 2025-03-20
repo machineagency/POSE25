@@ -1,4 +1,7 @@
-Over the workshop (April 14-15), we will have 4 'hackathon' sessions to test/prototype/experiment with Jubilees for laboratory automation! This repostitory contains resources to control a Jubilee using Python.
+# Pathways to Open-Source Hardware for Laboratory Automation Workshop
+On April 14-15 2025, we are gathering a group of scientists and engineers interested in using open-source technologies for automating scientific experiments at the University of Washington! Over the workshop, we will have 4 'hackathon' sessions to test/prototype/experiment with Jubilees for laboratory automation. You can find more information [here](https://depts.washington.edu/machines/scienceautomation/).
+
+This repostitory contains resources to control a Jubilee using Python!
 
 ## Setup
 We will have 6 Jubilees set up for use (this should work out to 3-4 people per Jubilee). We will provide laptops with the latest verson of [science-jubilee](https://science-jubilee.readthedocs.io/en/latest/) installed.
