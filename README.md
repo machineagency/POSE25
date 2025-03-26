@@ -1,34 +1,85 @@
-# Pathways to Open-Source Hardware for Laboratory Automation Workshop
-On April 14-15 2025, we are gathering a group of scientists and engineers interested in using open-source technologies for automating scientific experiments at the University of Washington! Over the workshop, we will have 4 'hackathon' sessions to test/prototype/experiment with Jubilees for laboratory automation. You can find more information [here](https://depts.washington.edu/machines/scienceautomation/).
+# POSE 2025 Workshop!
+*April 14-15, 2025 @ The University of Washington*
 
-This repostitory contains resources to control a Jubilee using Python!
 
-## Setup
-We will have 6 Jubilees set up for use (this should work out to 3-4 people per Jubilee). We will provide laptops with the latest verson of [science-jubilee](https://science-jubilee.readthedocs.io/en/latest/) installed.
-If for any reason you'd like to install software on your personal computer, or just learn more about the software, please check out the documentation!
+This repository contains code for the 2025 Pathways to Open-Source Hardware for Laboratory Automation Workshop at the University of Washington! Read on to learn about the workshop and the contents of this repository.
 
-## Tool Library
-We will have the following tools available to use on the machine during the workshop:
-- Opentrons OT-2 Pipette
-- 10cc syringe
-- Webcam tool
-- Simple spectrometer
-- Laboratory automation deck
+## About the Workshop
+On April 14-15 2025, we are gathering a group of scientists and engineers interested in using open-source technologies for automating scientific experiments at the University of Washington. You can find more information about the workshop and participants [here](https://depts.washington.edu/machines/scienceautomation/).
 
-## Schedule
-### Monday, April 14
-#### 10:30a-12p: Notebook Intro
+## Workshop Hackathon
+During the workshop, we will break into teams and have 4 open-ended work sessions to set up automation workflows using [Science Jubilee](https://science-jubilee.readthedocs.io/en/latest/), a custom toolchanging machine. 
+
+### Materials
+We'll have 6 machines equipped with the following tools:
+
+- a camera, for imaging the bed plate
+- a 10cc syringe, for liquid handling or gel extrusion 3D printing
+- a spectral sensor, for data collection
+- an OT-2 pipette, for precision liquid handling
+- additionally, 1 machine has 2 FFF 3D printing heads equipped
+
+We'll provide laptops with all relevant software already installed. If you'd prefer to try to install on your own laptop, see the [installation instructions](#installation) below.
+
+### What Should I Make?
+Whatever you want! You don't necessarily have to use Jubilee, if you and your team have other interests. Here are some ideas:
+
+- Implementing a color matching algorithm
+- Tuning (plastic or gel) 3D printing parameters using a video feed
+- Integrating a new tool for Jubilee, if you're CAD-inclined
+- Working on optimization algorithms that might be suited to Jubilee, if you're software-inclined
+
+Whatever you work on, be sure to take some notes along the way so you can share with others what you've worked on! 
+
+### Schedule
+The full workshop schedule (including discussion topics, lunch breaks, etc) can be found [here](https://depts.washington.edu/machines/scienceautomation/). The following times are when we'll have open-ended work sessions:
+
+#### Monday, April 14
+##### 10:30a-12p: Notebook Intro
 - Form teams
 - Get familiar with Jubilee/controlling using Python using example notebooks
-- Start brainstorming
+- Start brainstorming projects
 
-#### 2:30-4:20p: Hackathon Work Time
-- Finalize preliminary project idea
-- Project work time!
+##### 2:30-4:20p: Hackathon Work Time
+- Finalize a project idea
+- Work time!
 
-### Tuesday, April 15
-#### 10:30a-12p: Hackathon Work Time
+#### Tuesday, April 15
+##### 10:30a-12p: Hackathon Work Time
 - Hackathon project work time continued!
 
-#### 2:30-4:20p: Project Wrap-up
-- Time to continue/wrap up projects
+##### 2:30-4:20p: Project Wrap-up
+- Time to continue and wrap up projects
+
+### Repository Overview
+This repository has introductory notebooks for each tool, along with some other relevant documentation.  They probably won't do exactly what you'd like, but will give you a starting point to work from! There's no need to run through every notebook; feel free to only use the ones relevant to your interests/your project idea. Here's a brief overview of the notebooks:
+
+#### General
+Start here! This folder contains a general introduction to using the machine (connecting, moving around, etc).
+
+#### Labware
+Notebooks about using a laboratory automation deck to house labware. Check our these notebooks if you plan on doing liquid handling/navigating labware!
+
+#### Camera
+Notebooks for taking pictures and video using the camera tool.
+
+#### Pipette
+Notebooks for liquid handling with the OT-2 Pipette. Run through the [labware](#labware) notebooks for more details on setting up labware.
+
+#### Syringe
+Notebooks for both liquid handling with the syringe tool, as well as printing gels. If you you want to do liquid handling with the syringe tool, run through the [labware](#labware) notebooks for more details on setting up labware.
+
+#### Spectral Sensor
+Notebooks for data collection with the spectral sensor.
+
+#### Extending Science Jubilee
+Resources on how to add a new tool to science jubilee.
+
+#### Calibration
+Some helper notebooks for various calibration tasks, in case your project calls for them.
+
+
+## Installation
+We will have laptops with the relevent software installed so you don't have to deal with any installation issues. But if you'd like to use your personal computer:
+
+- Install `science-jubilee` using the instructions [here](https://science-jubilee.readthedocs.io/en/latest/getting_started/installation.html#installation)
