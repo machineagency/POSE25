@@ -52,7 +52,7 @@ The full workshop schedule (including discussion topics, lunch breaks, etc) can 
 - Time to continue and wrap up projects
 
 ### Repository Overview
-This repository has introductory notebooks for each tool.  They probably won't do exactly what you'd like, but will give you a starting point to work from! There's no need to run through every notebook; feel free to only use the ones relevant to your interests/your project idea. Here's a breif overview of the notebooks:
+This repository has introductory notebooks for each tool, along with some other relevant documentation.  They probably won't do exactly what you'd like, but will give you a starting point to work from! There's no need to run through every notebook; feel free to only use the ones relevant to your interests/your project idea. Here's a brief overview of the notebooks:
 
 #### General
 Start here! This folder contains a general introduction to using the machine (connecting, moving around, etc).
@@ -71,6 +71,9 @@ Notebooks for both liquid handling with the syringe tool, as well as printing ge
 
 #### Spectral Sensor
 Notebooks for data collection with the spectral sensor.
+
+#### Extending Science Jubilee
+Resources on how to add a new tool to science jubilee.
 
 #### Calibration
 Some helper notebooks for various calibration tasks, in case your project calls for them.
