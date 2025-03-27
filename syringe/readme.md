@@ -7,5 +7,5 @@ You can use the syringe tool for liquid handling or for gel 3D printing! If you 
 - **1_SerialDilution:** Using a syringe to run a serial dilution.
 
 ### Gel Printing
-**2_SyringExtruderIntro**: An introduction to using the syringe tool as a gel extruder
-**3_GelPrinting**: Printing gel structures with F-127.
+- **2_SyringExtruderIntro**: An introduction to using the syringe tool as a gel extruder
+- **3_GelPrinting**: Printing gel structures with F-127.
