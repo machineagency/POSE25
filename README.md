@@ -54,29 +54,29 @@ The full workshop schedule (including discussion topics, lunch breaks, etc) can 
 ### Repository Overview
 This repository has introductory notebooks for each tool, along with some other relevant documentation.  They probably won't do exactly what you'd like, but will give you a starting point to work from! There's no need to run through every notebook; feel free to only use the ones relevant to your interests/your project idea. Here's a brief overview of the notebooks:
 
-#### General
+#### [General](./general/)
 Start here! This folder contains a general introduction to using the machine (connecting, moving around, etc).
 
-#### Labware
+#### [Labware](./labware/)
 Notebooks about using a laboratory automation deck to house labware. Check our these notebooks if you plan on doing liquid handling/navigating labware!
 
-#### Camera
-Notebooks for taking pictures and video using the camera tool.
-
-#### Pipette
+#### [Pipette](./pipette/)
 Notebooks for liquid handling with the OT-2 Pipette. Run through the [labware](#labware) notebooks for more details on setting up labware.
 
-#### Syringe
+#### [Syringe](./syringe/)
 Notebooks for both liquid handling with the syringe tool, as well as printing gels. If you you want to do liquid handling with the syringe tool, run through the [labware](#labware) notebooks for more details on setting up labware.
 
-#### Spectral Sensor
+#### [Spectral Sensor](./spectral-sensor/)
 Notebooks for data collection with the spectral sensor.
 
-#### Extending Science Jubilee
-Resources on how to add a new tool to science jubilee.
+#### [Camera](./camera/)
+Notebooks for taking pictures and video using the camera tool.
 
-#### Calibration
+#### [Calibration](./calibration/)
 Some helper notebooks for various calibration tasks, in case your project calls for them.
+
+#### [Extending Science Jubilee](./extending-science-jubilee/)
+Resources on how to add a new tool to science jubilee.
 
 
 ## Installation
