@@ -52,7 +52,11 @@ The full workshop schedule (including discussion topics, lunch breaks, etc) can 
 - Time to continue and wrap up projects
 
 ### Connecting to Jubilee
+<<<<<<< HEAD
 Much of this workshop involves doing various things with Jubilee, so the first step is to connect with the machine and open Jupyter Lab to talk to it. Here's how:
+=======
+The first part of this workshop will involve doing various things with Jubilee, so the first step is for everyone to connect with their machine. Here's how to:
+>>>>>>> d44d7b5 (readme tweak)
 
 1. Turn on the machine.
 2. Connect with the Ethernet cable.
