@@ -52,11 +52,7 @@ The full workshop schedule (including discussion topics, lunch breaks, etc) can 
 - Time to continue and wrap up projects
 
 ### Connecting to Jubilee
-<<<<<<< HEAD
 Much of this workshop involves doing various things with Jubilee, so the first step is to connect with the machine and open Jupyter Lab to talk to it. Here's how:
-=======
-Much of this workshop involves doing various things with Jubilee, so the first step is to connect with the machine and open Jupyter Lab to talk to it. Here's how:
->>>>>>> d44d7b5 (readme tweak)
 
 1. Turn on the machine.
 2. Connect with the Ethernet cable.
@@ -65,15 +61,7 @@ Much of this workshop involves doing various things with Jubilee, so the first s
 ### Repository Overview
 This repository has introductory notebooks for each tool, along with some other relevant documentation.  They probably won't do exactly what you'd like, but will give you a starting point to work from! There's no need to run through every notebook; feel free to only use the ones relevant to your interests/your project idea. Here's a brief overview of the notebooks:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #### [Start Here](./start-here/)
-=======
-#### [General](./start-here/)
->>>>>>> 44b2f8c (update readme)
-=======
-#### [Start Here](./start-here/)
->>>>>>> a7e70c3 (Update README.md)
 Start here! This folder contains a general introduction to using the machine (connecting, moving around, etc).
 
 #### [Labware](./labware/)
