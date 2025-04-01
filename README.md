@@ -51,6 +51,13 @@ The full workshop schedule (including discussion topics, lunch breaks, etc) can 
 ##### 2:30-4:20p: Project Wrap-up
 - Time to continue and wrap up projects
 
+### Connecting to Jubilee
+The first part of this workshop will involve doing various things with Jubilee, so the first step is for everyone to connect with their machine. Here's how to:
+
+1. Turn on the machine.
+2. Connect with the Ethernet cable.
+3. Open Jupyter Lab: you can do this via the Terminal by typing `jupyter lab` or through VS Code.
+
 ### Repository Overview
 This repository has introductory notebooks for each tool, along with some other relevant documentation.  They probably won't do exactly what you'd like, but will give you a starting point to work from! There's no need to run through every notebook; feel free to only use the ones relevant to your interests/your project idea. Here's a brief overview of the notebooks:
 
