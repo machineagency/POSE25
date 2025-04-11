@@ -2,7 +2,6 @@
 
 In this folder, you'll find:
 
-<<<<<<< HEAD
 - **MachineJogging:** Instructions for connecting to the machine and moving it using Python code.
 - **DuetIntro:** A guide on navigating the Duet Web Control interface.
 
@@ -23,7 +22,3 @@ Duet Web Control (DWC) is a fully-featured, browser-based user interface for the
 5. **Viewing Machine Status**: The `Status` panel shows the machine's current state, including tool positions. This information is helpful for tasks like [installing tool parking posts](../calibration/SetToolParkingPositions.ipynb).
 
 6. **Managing Tools**: All tools defined in the configuration files are displayed in DWC. Their indices (`T{index}`) are important when defining and using tools in notebooks.
-=======
-- **DuetIntro:** Overview of the DuetWebControl interface (TODO)
-- **MachineJogging:** Connecting to the machine and moving around using Python code.
->>>>>>> 44b2f8c (update readme)
