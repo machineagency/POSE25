@@ -2,7 +2,6 @@
 
 In this folder, you'll find:
 
-
 - **MachineJogging:** Instructions for connecting to the machine and moving it using Python code.
 - **DuetIntro:** A guide on navigating the Duet Web Control interface.
 

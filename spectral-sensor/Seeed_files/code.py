@@ -33,7 +33,12 @@ class Actions:
 
 
     def case_spec(self, param=None):
-        sensor.led_current = int(param) # set LED current using the input argument
+        if int(param) == 0:
+            sensor.led = False
+        else:
+            sensor.led = True
+            # turn on the LED
+            sensor.led_current = (int(param) / 100) * 258
         time.sleep(1) # let it illuminate for 1 second
         # read the sensor data
         data = { 
@@ -47,7 +52,8 @@ class Actions:
             '680': sensor.channel_680nm,
         }
         print(data) # print the sensor data via serial back to science jubilee
-        sensor.led_current = 0 #turn off LED
+        # turn off the LED
+        sensor.led = False
 
 
 action = Actions()
